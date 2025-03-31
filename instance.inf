@@ -1,0 +1,11 @@
+# /root/instance.inf
+[general]
+config_version = 2
+
+[slapd]
+root_password = welcome1
+
+[backend-userroot]
+sample_entries = yes
+suffix = dc=labber,dc=io
+
